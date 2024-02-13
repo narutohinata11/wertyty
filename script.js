@@ -3,7 +3,7 @@ document.getElementById('codeForm').addEventListener('submit', function(event) {
     
     var code = document.getElementById('code').value;
     
-    if (code === 'ammulu') {
+    if (code === 'Ammulu') {
         window.location.href = 'home1.html';
     } else {
         alert('Incorrect code! Please try again.');
