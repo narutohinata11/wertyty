@@ -1,0 +1,35 @@
+body, html{
+   margin:0;
+   padding: 0;
+   height: 100%;
+   /* backdrop-filter: blur(10px); */
+   filter: blur(10px);
+   
+}
+section{
+            
+            background-color: #f0f0f0; /* Set background color as needed */
+            background-image: url("bg1.jpg");
+            /* filter: blur(10px); */
+            position: relative;
+            z-index: 1;
+            /* backdrop-filter: blur(50px); */
+            justify-content: center;
+            align-items: center;
+   
+}
+#content{
+    z-index: 2;
+    backdrop-filter: blur(10px);
+    background-image: url("bg1.jpg");
+   background-size: cover;
+   width:65%;
+   margin: auto;
+   height: 100%;
+   padding:2%;
+
+
+}
+#scroll{
+    width:65%;
+}

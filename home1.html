@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blurred Background Section</title>
+    <style>
+        /* Apply styles to the body to ensure full page height */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Style for the full-page section */
+        .full-page-section {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* This will make the section cover the entire viewport height */
+            overflow: hidden; /* Hide overflow to prevent scrollbars */
+        }
+        
+        /* Style for the background layer */
+        .background-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('bg1.jpg'); /* Replace 'your-background-image.jpg' with your image path */
+            background-size: cover;
+            filter: blur(0.6px); /* Apply the blur effect to the background */
+        }
+
+        /* Optional: Add additional styles for content inside the full-page section */
+        .content {
+            position: relative;
+            z-index: 1; /* Ensure content is above the background layer */
+            text-align: center;
+            color: white; /* Example: Set text color to white for contrast */
+            padding:5%;
+        }
+    </style>
+</head>
+<body>
+    <section class="full-page-section">
+        <div class="background-layer"></div> <!-- Background layer for blur effect -->
+        <div class="content">
+            <section>
+                <h1 id="scroll"><marquee>Happy Valentines Day Bae</marquee></h1>
+                <div id="content">
+                   
+            
+                </div>
+            </section>
+            <i>My Dearest <b>Ammulu</b>,
+                <br>
+                As I wake up on this day dedicated to love, my heart is overflowing with gratitude for having you in my life. Every moment with you feels like a cherished gift, and today, on Valentine's Day, I want to take a moment to celebrate the incredible love we share.
+                
+                You are the beating of my heart, the light in my darkest days, and the warmth in my soul. Your presence brings me immense joy, and your love fills every corner of my being with happiness and contentment.
+                
+                On this special day, I want to express my deepest love and appreciation for everything you are to me. You are not just my lover, but my confidant, my partner-in-crime, and my best friend. With you by my side, I feel invincible, ready to conquer any obstacle that comes our way.
+                
+                Thank you for being the most amazing person I know, for your unwavering support, and for loving me unconditionally. I cherish every moment we spend together, and I look forward to creating countless more memories with you in the days, months, and years to come.
+                
+                Happy Valentine's Day, my love. May our bond continue to grow stronger with each passing day, and may our love story be written in the stars for eternity.
+                
+                <br>Forever and always,<br>
+                <b>Chintu....</b></i>
+        </div>
+    </section>
+</body>
+</html>
